@@ -2,10 +2,106 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  background-image: var(--cover-image);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: var(--cover-color);
+  font-family: var(--font-main);
+  color: var(--main-color);
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+}
+
+.decor__icon {
+  position: absolute;
+  right: 40px;
+  font-size: 18px;
+  color: var(--accent-color);
+}
+
+.decor__icon::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 0 1.5px 1.5px var(--accent-color);
+  top: 8px;
+  left: 41px;
+}
+.decor__icon::after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  width: 25px;
+  height: 25px;
+  left: 35px;
+}
+
+.header {
+  display: grid;
+  align-items: start;
+  background-image: var(--cover-dark-image);
+}
+
+.header__theme-menu {
+  margin: 48px 0 40px;
+  justify-self: end;
+  font-size: var(--font-size-main);
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.header__theme-menu-button {
+  text-transform: lowercase;
+  background-color: transparent;
+  font-size: var(--font-size-main);
+  color: var(--accent-color);
+  cursor: pointer;
+  padding: 0 13px;
+  border: none;
+}
+
+.header__theme-menu-button:active {
+  pointer-events: none;
+  outline: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--accent-transparent-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.header__title {
+  color: var(--main-title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.25rem + 0vw, 7.25rem);
+  line-height: 83%;
+  margin: 10px 0 35px;
+}
+
+.header__title-text {
+  color: var(--cover-color);
+  background: var(--accent-color);
+  font-weight: 700;
+  font-size: var(--font-size-main);
+  line-height: 130%;
+  /* margin-block: 50px; */
 }

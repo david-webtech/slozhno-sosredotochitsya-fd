@@ -6,4 +6,12 @@
 :root {
   --cover-image: url("../images/cover-image.png");
   --cover-color: #000028;
+  --cover-dark-image: url("../images/cover-image-dark.png");
+  --cover-light-image: url("../images/cover-image-light.png");
+  --accent-color: #FF0070;
+  --accent-transparent-color: #FF007066;
+  --main-color: #F1B2CE;
+  --font-main: "IBM Plex mono";
+  --font-size-main: 18px;
+  --main-title-color: #DB00FF
 }
