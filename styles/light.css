@@ -9,6 +9,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --cover-image: url("../images/cover-image-light.png");
+  --cover-color: #FFF1F7;
+  --accent-color: #353430;
+  --accent-background-color: #FF8DCB;
+  --accent-transparent-color: #32312D66;
+  --heading-color: #353430;
+  --main-color: #353430;
+  --font-main: "IBM Plex mono";
+  --font-size-main: 18px;
+  --main-title-color: #FFC2E6;
+  --shadow-color: #FF8DCB;
+  --special-rec-color: transparent;
 }
 
 .theme-light .page {
