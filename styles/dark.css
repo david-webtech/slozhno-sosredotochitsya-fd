@@ -26,4 +26,17 @@
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  --cover-image: url("../images/cover-image.png");
+  --cover-color: #000028;
+  --accent-color: #FF0070;
+  --accent-background-color: #FF0070;
+  --accent-transparent-color: #FF007066;
+  --main-color: #F1B2CE;
+  --heading-color: #FF0070;
+  --sub-heading-color: #000028;
+  --font-main: "IBM Plex mono";
+  --font-size-main: 18px;
+  --main-title-color: #DB00FF;
+  --shadow-color: #FF0070;
+  --special-rec-color: #FF0070;
 }
