@@ -9,10 +9,7 @@
   color: var(--main-color);
   background-image: var(--cover-image);
   background-color: var(--cover-color);
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   font-size: 18px;
   padding: 10px;
   margin: 0;
