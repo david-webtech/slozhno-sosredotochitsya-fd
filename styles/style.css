@@ -302,12 +302,6 @@
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
-  .cause__title {
-  }
-
-  .downgrade {
-
-  }
 
   .downgrade__title {
     width: 236px;
@@ -316,10 +310,6 @@
 
   .upgrade__title {
     margin: 0;
-  }
-
-  .dw__grade-article {
-
   }
 
   .upgrade {
@@ -473,10 +463,6 @@
     column-gap: 12px;
   }
 
-  .downgrade {
-    
-  }
-
   .downgrade__title {
     width: 315px;
   }
@@ -499,15 +485,6 @@
 
   .gadgets {
     grid-area: gadgets;
-  }
-
-  .downgrade__title {
-    /* margin-top: 0;
-    width: 315px; */
-  }
-
-  .dw__grade-article {
-
   }
 
   .upgrade {
