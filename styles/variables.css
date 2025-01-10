@@ -4,7 +4,7 @@
 */
 
 :root {
-  --cover-image: url("../images/cover-image.png");
+  --cover-image: url("../images/cover-image-dark.png");
   --cover-color: #000028;
   --accent-color: #FF0070;
   --accent-background-color: #FF0070;
@@ -12,9 +12,11 @@
   --main-color: #F1B2CE;
   --heading-color: #FF0070;
   --sub-heading-color: #000028;
-  --font-main: "IBM Plex mono";
+  --font-main: "IBM Plex mono", "Arial", "Helvetica", sans-serif;
   --font-size-main: 18px;
   --main-title-color: #DB00FF;
   --shadow-color: #FF0070;
   --special-rec-color: #FF0070;
+  --logo-size: clamp(7.25rem, 7.25rem + 0vw, 7.25rem);
+  --decor-rec-visible: #FF0070;
 }
