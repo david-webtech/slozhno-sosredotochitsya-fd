@@ -3,6 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-image: var(--cover-image);
+  background-color: var(--cover-color);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -38,7 +39,7 @@
   inline-size: 25px;
   block-size: 25px;
   align-self: flex-end;
-  margin: 0 0 10px;
+  bottom: 14px;
 }
 
 .decor__rec {
@@ -254,13 +255,14 @@
   .decorated-zone::before {
     inset-inline-end: clamp(10px, 0.0389rem + 2.5445vw, 2px);
     inset-block-start: clamp(10px, 0.0345rem + 2.3445vw, 20px);
-    margin-top: -6px;
+    top: 14px;
   }
 
   .decorated-zone::after {
     inset-inline-start: clamp(10px, 0.0389rem + 2.5445vw, 20px);
     inset-block-end: clamp(10px, 0.0345rem + 3.1245vw, 20px);
-    margin: 0 -10px;
+    bottom: 24px;
+    left: 10px;
   }
 
   .decor__rec {
@@ -413,13 +415,12 @@
     justify-self: center;
   }
 
-
 }
 
 @media (width >= 1024px) {
 
   .decorated-zone::before {
-    margin-top: 0px;
+    top: 11px;
   }
 
   .decor__rec {
@@ -464,7 +465,7 @@
     column-gap: 20px;
   }
 
-  .article-row {
+  .feature {
     grid-column-start: auto;
   }
 
